@@ -1,0 +1,96 @@
+/*body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Login input{
+    display: block;
+    height: 35px;
+    width: 80%;
+    transform-box: ;
+}
+
+.Login{
+    border: 1px solid red;
+    text-align: center;
+    width: 60%;
+    margin-right: 30px;
+}
+
+
+.Register{
+    border: 1px solid red;
+    width: 40%;
+}*/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background: url("Sell background.jpg");
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login{
+    border: 2px solid goldenrod;
+    margin-right: 30px;
+    padding: 40px 30px;
+    color: rgb(102, 247, 128);
+    width: 30vw;
+    font-size: 25px;
+}
+
+.Register{
+    margin: 50px;
+    margin-left: 30px;
+    border: 2px solid goldenrod;
+    padding: 40px 40px;
+    color: rgb(102, 247, 128);
+    width: 30vw;
+    font-size: 26px;
+}
+
+.Login input[type=submit]{
+    cursor: pointer;
+    background-color: lime;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 18px;
+}
+.Register [type=submit]{  
+    cursor: pointer;
+    background-color: lime;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.Login input[type=submit]:hover{
+    color: black;
+    background-color: rgb(245, 239, 46);
+}
+.Register input[type=submit]:hover{
+    color: black;
+    background-color: rgb(245, 239, 46);
+}
